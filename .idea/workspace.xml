@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5487cd4e-4f61-42af-b37a-37bca66c537f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/presentation/overview_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/presentation/overview_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather.iml" beforeDir="false" afterPath="$PROJECT_DIR$/weather.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "E:/flutter/bin/cache/dart-sdk",
-    "settings.editor.selected.configurable": "flutter.settings",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Dart",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
