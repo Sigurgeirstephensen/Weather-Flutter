@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:weather/presentation/overview_page.dart';
-
+import 'package:weather/presentation/Splash_page.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -10,9 +10,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const OverviewPage(),
+      home: SplashPage(),
     );
   }
 }
