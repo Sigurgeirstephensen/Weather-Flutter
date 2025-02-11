@@ -12,14 +12,14 @@ class _OverviewPageState extends State<OverviewPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(title: Text("Weather app")),
       body: Container(
         width: double.infinity,
         height: double.infinity,
         color: Colors.lightBlueAccent,
         child: Column(
           children: [
-            Text("HELLO KITTY CAT"),
+            Center(child: Text("HELLO KITTY CAT")),
           ],
         ),
       ),
