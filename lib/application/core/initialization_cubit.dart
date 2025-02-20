@@ -9,6 +9,8 @@ class InitializationCubit extends Cubit<InitializationState> {
   InitializationCubit() : super(InitializationState.initial());
 
   void init() {
-    emit(state.copyWith(status: InitializationStatus.loaded));
+    emit(state.copyWith(status: InitializationStatus.splash));
+    Future.delayed(const Duration(seconds: 10),
+        () => emit(state.copyWith(status: InitializationStatus.loaded)));
   }
 }

@@ -3,6 +3,7 @@ part of 'initialization_cubit.dart';
 enum InitializationStatus {
   loading,
   loaded,
+  splash,
 }
 
 @injectable
